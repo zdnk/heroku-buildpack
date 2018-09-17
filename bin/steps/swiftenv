@@ -1,6 +1,6 @@
 # Fetch swiftenv
 puts-step Installing swiftenv
-unset GIT_DIR
+# unset GIT_DIR
 git submodule update --init --recursive >/dev/null
 
 # Activate swiftenv
